@@ -1,3 +1,45 @@
+
+TOPIC COVERED IN THIS PROJECT
+Passing props from parent component to child component
+Working with Events and States
+Listening to event/listen to even changes
+Using Two way binding to control component- a value selected from the dropdwon child component is passed to the parent component/receieved from the parent component.
+Passing data from child component to t parent using the Lift the State up approach
+Working with State to update the state.
+
+We add the NewExpense component in order to build a user input wehre users could be able to add their own expense input.
+
+Created a ExpenseForm component to easily add the form inputs before rendering it. 
+
+
+min="2010-01-10" max="2022-12-31" adding this year from this start is to enable for the yer filter to sgtart from there
+
+
+
+Gathering user input as to which event prop you wanna listen to. 
+Example- onChange event, onTimeUpdate event, onInput.
+
+Here, making use of onChange prop event because you can use it for all other input types event dropdown.
+
+Setting the function for the onChange prop is done at the top of the function and never inside the onChange prop
+
+Passing the onChange prop event, React makes sure we get the event object when changes occurs. On the titleChangeHandler, event is passed on it to enable React detects an event- user input that occurs on the type text.
+
+
+On the console, the target: input holds the value property. 
+Now, it is possible to console the event.target.value.
+
+Consoling event.target.value enables to get the current value of the property that is enetered.
+
+Using Multiple State in React over mering all to one State Approach and using spread operator
+
+
+Adding Two Way Binding
+We add the two way binding to enable us listen to the input and change back to the original inpput.
+
+To add the two way binding on the input text, 
+set the value prop property-changeTitle as a property.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
